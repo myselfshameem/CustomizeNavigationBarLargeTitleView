@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  CustomizeNavigationBarLargeTitleView
 //
-//  Created by Saman khan on 11/06/2022.
+//  Created by Shameem A. Khan on 11/06/2022.
 //
 
 import UIKit

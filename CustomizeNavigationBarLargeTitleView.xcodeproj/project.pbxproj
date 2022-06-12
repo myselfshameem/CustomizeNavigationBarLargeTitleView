@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE12AD0828548DE100AF2AB2 /* UINavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12AD0728548DE100AF2AB2 /* UINavigationBar.swift */; };
 		EE6D00562854875E00A22385 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D00552854875E00A22385 /* AppDelegate.swift */; };
 		EE6D00582854875E00A22385 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D00572854875E00A22385 /* SceneDelegate.swift */; };
-		EE6D005A2854875E00A22385 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D00592854875E00A22385 /* ViewController.swift */; };
 		EE6D005D2854875E00A22385 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE6D005B2854875E00A22385 /* Main.storyboard */; };
 		EE6D005F2854875F00A22385 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6D005E2854875F00A22385 /* Assets.xcassets */; };
 		EE6D00622854875F00A22385 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE6D00602854875F00A22385 /* LaunchScreen.storyboard */; };
 		EE6D006D2854875F00A22385 /* CustomizeNavigationBarLargeTitleViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D006C2854875F00A22385 /* CustomizeNavigationBarLargeTitleViewTests.swift */; };
 		EE6D00782854875F00A22385 /* CustomizeNavigationBarLargeTitleViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D00772854875F00A22385 /* CustomizeNavigationBarLargeTitleViewUITests.swift */; };
+		EEF636AB2854904400D0C935 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF636AA2854904400D0C935 /* TableViewController.swift */; };
+		EEF636B0285490B800D0C935 /* ListViewMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF636AF285490B800D0C935 /* ListViewMode.swift */; };
+		EEF636B1285490B800D0C935 /* ListViewMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF636AF285490B800D0C935 /* ListViewMode.swift */; };
+		EEF636B2285490B800D0C935 /* ListViewMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF636AF285490B800D0C935 /* ListViewMode.swift */; };
+		EEF636B82854AEE800D0C935 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF636B62854AEE800D0C935 /* DetailViewController.swift */; };
+		EEF636BB2854AEE800D0C935 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEF636B72854AEE800D0C935 /* DetailViewController.xib */; };
+		EEF636BC2854AEE800D0C935 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEF636B72854AEE800D0C935 /* DetailViewController.xib */; };
+		EEF636BD2854AEE800D0C935 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEF636B72854AEE800D0C935 /* DetailViewController.xib */; };
+		EEF636C5285506A100D0C935 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF636C4285506A100D0C935 /* CustomButton.swift */; };
+		EEF636C6285506A100D0C935 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF636C4285506A100D0C935 /* CustomButton.swift */; };
+		EEF636C7285506A100D0C935 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF636C4285506A100D0C935 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE12AD0728548DE100AF2AB2 /* UINavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationBar.swift; sourceTree = "<group>"; };
 		EE6D00522854875E00A22385 /* CustomizeNavigationBarLargeTitleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomizeNavigationBarLargeTitleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE6D00552854875E00A22385 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE6D00572854875E00A22385 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EE6D00592854875E00A22385 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EE6D005C2854875E00A22385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE6D005E2854875F00A22385 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE6D00612854875F00A22385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +60,11 @@
 		EE6D00732854875F00A22385 /* CustomizeNavigationBarLargeTitleViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomizeNavigationBarLargeTitleViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE6D00772854875F00A22385 /* CustomizeNavigationBarLargeTitleViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeNavigationBarLargeTitleViewUITests.swift; sourceTree = "<group>"; };
 		EE6D00792854875F00A22385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEF636AA2854904400D0C935 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		EEF636AF285490B800D0C935 /* ListViewMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewMode.swift; sourceTree = "<group>"; };
+		EEF636B62854AEE800D0C935 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EEF636B72854AEE800D0C935 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		EEF636C4285506A100D0C935 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +92,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE0CF1BE2855C8A9004DDE93 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EEF636AF285490B800D0C935 /* ListViewMode.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EE0CF1BF2855C8B9004DDE93 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EEF636AA2854904400D0C935 /* TableViewController.swift */,
+				EEF636B62854AEE800D0C935 /* DetailViewController.swift */,
+				EEF636B72854AEE800D0C935 /* DetailViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE12AD0628548DCD00AF2AB2 /* CustomNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				EE12AD0728548DE100AF2AB2 /* UINavigationBar.swift */,
+				EEF636C4285506A100D0C935 /* CustomButton.swift */,
+			);
+			path = CustomNavigationBar;
+			sourceTree = "<group>";
+		};
 		EE6D00492854875E00A22385 = {
 			isa = PBXGroup;
 			children = (
@@ -101,8 +144,10 @@
 			children = (
 				EE6D00552854875E00A22385 /* AppDelegate.swift */,
 				EE6D00572854875E00A22385 /* SceneDelegate.swift */,
-				EE6D00592854875E00A22385 /* ViewController.swift */,
 				EE6D005B2854875E00A22385 /* Main.storyboard */,
+				EE0CF1BF2855C8B9004DDE93 /* View */,
+				EE0CF1BE2855C8A9004DDE93 /* ViewModel */,
+				EE12AD0628548DCD00AF2AB2 /* CustomNavigationBar */,
 				EE6D005E2854875F00A22385 /* Assets.xcassets */,
 				EE6D00602854875F00A22385 /* LaunchScreen.storyboard */,
 				EE6D00632854875F00A22385 /* Info.plist */,
@@ -234,6 +279,7 @@
 				EE6D00622854875F00A22385 /* LaunchScreen.storyboard in Resources */,
 				EE6D005F2854875F00A22385 /* Assets.xcassets in Resources */,
 				EE6D005D2854875E00A22385 /* Main.storyboard in Resources */,
+				EEF636BB2854AEE800D0C935 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEF636BC2854AEE800D0C935 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +295,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEF636BD2854AEE800D0C935 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +306,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE6D005A2854875E00A22385 /* ViewController.swift in Sources */,
+				EE12AD0828548DE100AF2AB2 /* UINavigationBar.swift in Sources */,
 				EE6D00562854875E00A22385 /* AppDelegate.swift in Sources */,
 				EE6D00582854875E00A22385 /* SceneDelegate.swift in Sources */,
+				EEF636B82854AEE800D0C935 /* DetailViewController.swift in Sources */,
+				EEF636C5285506A100D0C935 /* CustomButton.swift in Sources */,
+				EEF636AB2854904400D0C935 /* TableViewController.swift in Sources */,
+				EEF636B0285490B800D0C935 /* ListViewMode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +320,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEF636C6285506A100D0C935 /* CustomButton.swift in Sources */,
 				EE6D006D2854875F00A22385 /* CustomizeNavigationBarLargeTitleViewTests.swift in Sources */,
+				EEF636B1285490B800D0C935 /* ListViewMode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +330,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEF636C7285506A100D0C935 /* CustomButton.swift in Sources */,
 				EE6D00782854875F00A22385 /* CustomizeNavigationBarLargeTitleViewUITests.swift in Sources */,
+				EEF636B2285490B800D0C935 /* ListViewMode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +477,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
