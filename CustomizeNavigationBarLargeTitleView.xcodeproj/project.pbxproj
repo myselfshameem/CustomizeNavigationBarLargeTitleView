@@ -110,13 +110,13 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		EE12AD0628548DCD00AF2AB2 /* CustomNavigationBar */ = {
+		EE12AD0628548DCD00AF2AB2 /* UINavigationBar+Extension */ = {
 			isa = PBXGroup;
 			children = (
 				EE12AD0728548DE100AF2AB2 /* UINavigationBar.swift */,
 				EEF636C4285506A100D0C935 /* CustomButton.swift */,
 			);
-			path = CustomNavigationBar;
+			path = "UINavigationBar+Extension";
 			sourceTree = "<group>";
 		};
 		EE6D00492854875E00A22385 = {
@@ -147,7 +147,7 @@
 				EE6D005B2854875E00A22385 /* Main.storyboard */,
 				EE0CF1BF2855C8B9004DDE93 /* View */,
 				EE0CF1BE2855C8A9004DDE93 /* ViewModel */,
-				EE12AD0628548DCD00AF2AB2 /* CustomNavigationBar */,
+				EE12AD0628548DCD00AF2AB2 /* UINavigationBar+Extension */,
 				EE6D005E2854875F00A22385 /* Assets.xcassets */,
 				EE6D00602854875F00A22385 /* LaunchScreen.storyboard */,
 				EE6D00632854875F00A22385 /* Info.plist */,
